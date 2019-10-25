@@ -7,7 +7,7 @@ echo "wslのubuntuでの初期設定になります。"
 echo ""
 echo "VcxSrvのインストールはできましたか?"
 echo "https://sourceforge.net/projects/vcxsrv/ でインストールできます"
-echo "設定方法は http://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToInstallUbuntu1804OnWSL.html を参照してください"
+echo "設定方法は https://www.kunihikokaneko.com/tools/win/vcxsrv.html を参照してください"
 read -p " (y/N): " yn
  case "$yn" in [yY]*) ;; *) echo "abort." ; exit ;; esac
 
